@@ -1,0 +1,44 @@
+html, body {
+  width: 100%;
+  height: 3000px;
+  margin: 0;
+}
+
+.a,
+.b,
+.c,
+.d,
+.e {
+  width: 150px;
+  height: 150px;
+}
+
+.a {
+  position: relative;
+  background: paleturquoise;
+}
+
+.b {
+  position: relative;
+  background: lightgreen;
+}
+
+.c {
+  position: relative;
+  margin-top: -10px;
+  background: lightpink
+}
+
+.d {
+  background: palegoldenrod;
+  position: fixed;
+  bottom:0px;
+  right: 0px;
+}
+
+.e {
+  background: lightseagreen;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}

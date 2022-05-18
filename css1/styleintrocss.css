@@ -1,0 +1,48 @@
+body {
+  font-family : calibri, sans-serif;
+}
+
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+
+}
+
+h1, h2 {
+  color : #000634;
+}
+
+h3 {
+  font-style: italic;
+  color : #2b2b2b;
+}
+
+h4 {
+  text-decoration: underline;
+}
+
+p {
+  text-align: justify;
+  padding :5px;
+}
+
+.definition {
+  background-color: #e0ecec;
+}
+
+.sample {
+  background-color: lightgray;
+}
+
+.syntax {
+  background-color: cornsilk;
+}
+
+.warning {
+  background-color: lightcoral;
+}

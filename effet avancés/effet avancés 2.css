@@ -1,0 +1,20 @@
+@keyframes goBottom {
+  0% {
+    background:rgb(0, 0, 0)
+  }
+  50% {
+    background: yellow
+  }
+  100% {
+    background: red;
+    transform: translateY(500px);
+  }
+}
+
+.boxWithAnimation {
+  height: 200px;
+  width: 200px;
+  background: rgb(0, 0, 0);
+  border-radius: 100px;
+  animation: 0.8s ease-in 0.5s infinite alternate goBottom;
+}

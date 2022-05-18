@@ -1,0 +1,28 @@
+/* 
+Inverse le sens d'écritude du texte
+h1 {
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: flex-end;
+} */
+
+/* h1 {
+    display: flex;
+    justify-content: flex-start;
+} */
+
+@keyframes moveText {
+0% {
+    background:white
+}
+100% {
+    background: white;
+    transform: rotate(-180deg);
+}
+}
+
+h1 {
+    color: blue;
+    animation: 1s ease-in 0.8s infinite alternate moveText;
+}
+  
